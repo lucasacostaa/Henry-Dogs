@@ -1,0 +1,29 @@
+.temperament-slide-container{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+
+    .active{
+        font-weight: 600;
+        background: rgba(13,12,34,0.05);
+        border-radius: 8px;
+        padding: 0px 12px;
+        color: #0d0c22;
+    }
+
+    a{
+        display: flex;
+        font-weight: 600;
+        color: #6e6d7a;
+        text-decoration: none;
+        transition: color 200ms ease;
+        font-size: 14px;
+        padding: 0px 12px;
+        height: 40px;
+        align-items: center;
+
+        &:hover{
+            color: #0d0c22;
+        }
+    }
+}

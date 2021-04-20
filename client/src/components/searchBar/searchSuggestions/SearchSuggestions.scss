@@ -1,0 +1,15 @@
+.swrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: white;
+    height: 200px;
+    border: black solid 2px;
+    height: fit-content;
+    padding-left: 80px;
+    padding-bottom: 20px;
+    list-style-type:none;
+    margin: 0;
+    border-top: none;
+}

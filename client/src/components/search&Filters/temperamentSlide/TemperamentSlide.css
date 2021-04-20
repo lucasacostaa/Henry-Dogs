@@ -1,0 +1,39 @@
+.temperament-slide-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.temperament-slide-container .active {
+  font-weight: 600;
+  background: rgba(13, 12, 34, 0.05);
+  border-radius: 8px;
+  padding: 0px 12px;
+  color: #0d0c22;
+}
+
+.temperament-slide-container a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: 600;
+  color: #6e6d7a;
+  text-decoration: none;
+  -webkit-transition: color 200ms ease;
+  transition: color 200ms ease;
+  font-size: 14px;
+  padding: 0px 12px;
+  height: 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.temperament-slide-container a:hover {
+  color: #0d0c22;
+}
+/*# sourceMappingURL=TemperamentSlide.css.map */

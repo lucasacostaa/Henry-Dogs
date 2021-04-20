@@ -1,0 +1,67 @@
+.dropable-input{
+    position: relative;
+
+    
+
+    .btn-dropdown-filter{
+        cursor: default;
+        z-index: -1;
+
+        span{
+            display: flex;
+            padding: 5px 3px;
+            background-color: rgb(232, 253, 172);
+            color: black;
+            font-weight: 500;
+            border-radius: 8px;
+            margin: 2px;
+            font-size: 16px;
+            width: max-content;
+        }
+
+        .tempDelete{
+            display: flex;
+            font-size: 11px;
+            padding: 2px;
+            font-weight: 600;
+            height: fit-content;
+        }
+
+        .vertical-divider{
+            margin-left: 10px;
+            width: 2px;
+            background: #e7e7e9;
+            height: 50%;
+        }
+
+        #temp-input{
+            margin-left: 10px;
+            outline: none;
+            box-sizing: border-box;
+            border-color: transparent;
+            width: 300px;
+            
+            &:focus{
+                background-color: white;
+            }
+        }
+    }
+    #add-filter{
+        margin-top: 0!important;
+        padding: 0!important;
+        width: 20%!important;
+        height: 30px!important;
+    }
+}
+
+#check01:checked{
+    #temp-input{
+        display: block;
+    }
+}
+
+#temp-input:focus{
+    .btn-dropdown-filter{
+        background-color: white;
+    }
+}

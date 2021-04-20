@@ -1,0 +1,14 @@
+.suggestion {
+  line-height: 28.6px;
+  text-align: left;
+  padding: 5px 0 5px 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+}
+
+.suggestion .suggestionLink {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*# sourceMappingURL=Suggestion.css.map */

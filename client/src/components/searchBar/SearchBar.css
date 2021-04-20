@@ -1,0 +1,73 @@
+.wrapper {
+  position: relative;
+  -ms-flex: 1;
+  -webkit-box-flex: 1;
+          flex: 1;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+          align-items: center;
+  padding-left: 28px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.wrapper:hover {
+  outline-color: red;
+}
+
+.wrapper .search-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.wrapper .js-search-input-form {
+  height: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+}
+
+.wrapper .search-input {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: transparent;
+  border-color: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  font-size: 16px;
+  background: #fff;
+  padding: 0;
+  padding-right: 0px;
+  padding-left: 0px;
+  height: 100%;
+  padding-left: 30px;
+  padding-right: 24px;
+  width: 100%;
+  outline: none;
+  color: black;
+}
+
+.wrapper .vertical-divider {
+  margin-right: 24px;
+  width: 2px;
+  background: #e7e7e9;
+  height: 50%;
+}
+
+.wrapper .btn-dropdown {
+  width: 84px;
+  margin-right: 25px;
+  color: #0d0c22;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.wrapper .btn-dropdown:hover {
+  cursor: pointer;
+}
+/*# sourceMappingURL=SearchBar.css.map */

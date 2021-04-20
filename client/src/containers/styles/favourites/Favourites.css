@@ -1,0 +1,52 @@
+.favourite-container {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 200%;
+  width: 99.7%;
+  background-color: rgba(0, 0, 0, 0.452);
+  z-index: 2;
+  margin: 0 auto;
+  right: auto;
+  border: solid grey;
+}
+
+.favourite-container .cards-slider {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  padding: 20px 0;
+  width: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.favourite-container .cards-slider .close-btn {
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  -webkit-transition: 300ms ease;
+  transition: 300ms ease;
+}
+/*# sourceMappingURL=Favourites.css.map */

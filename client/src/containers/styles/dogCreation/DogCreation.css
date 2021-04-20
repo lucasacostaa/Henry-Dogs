@@ -1,0 +1,197 @@
+.creation-container {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 300%;
+  width: 99.7%;
+  background-color: rgba(0, 0, 0, 0.452);
+  z-index: 2;
+  margin: 0 auto;
+  right: auto;
+  border: solid grey;
+}
+
+.creation-container .image-insertion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 30%;
+  height: 30%;
+  background-color: white;
+}
+
+.creation-container .image-insertion input {
+  width: 80%;
+  line-height: 15px;
+  border: 1px solid transparent;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 40px;
+  padding: 10px 16px;
+  outline: none;
+  border-radius: 8px;
+  transition: background-color 200ms ease, outline 200ms ease, color 200ms ease, box-shadow 200ms ease, -webkit-box-shadow 200ms ease;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  color: #0d0c22;
+  background-color: #f3f3f4;
+  margin: 10px 0px;
+}
+
+.creation-container .image-insertion input:hover {
+  background-color: #fff;
+  border-color: rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 0 4px rgba(234, 76, 137, 0.1);
+  box-shadow: 0 0 0 4px rgba(234, 76, 137, 0.1);
+}
+
+.creation-container .form-container {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: white;
+  height: 30%;
+  width: 35%;
+}
+
+.creation-container .form-container .form-field {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 80%;
+}
+
+.creation-container .form-container .form-field fieldset {
+  border: transparent;
+  width: 100%;
+}
+
+.creation-container .form-container .form-field #tagSelection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.creation-container .form-container .form-field #tagSelection span {
+  padding: 5px 3px;
+  background-color: grey;
+  color: white;
+  font-weight: 500;
+  border-radius: 8px;
+  margin: 2px;
+}
+
+.creation-container .form-container .form-field #tagSelection .tempDelete {
+  display: inline-block;
+  padding: 2px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.creation-container .form-container .form-field select {
+  height: 80px;
+}
+
+.creation-container .form-container input {
+  width: 80%;
+  line-height: 15px;
+  border: 1px solid transparent;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 40px;
+  padding: 10px 16px;
+  outline: none;
+  border-radius: 8px;
+  transition: background-color 200ms ease, outline 200ms ease, color 200ms ease, box-shadow 200ms ease, -webkit-box-shadow 200ms ease;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  color: #0d0c22;
+  background-color: #f3f3f4;
+  margin: 10px 0px;
+}
+
+.creation-container .form-container input:hover {
+  background-color: #fff;
+  border-color: rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 0 4px rgba(234, 76, 137, 0.1);
+  box-shadow: 0 0 0 4px rgba(234, 76, 137, 0.1);
+}
+
+.creation-container .form-container .divided-input-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.creation-container .form-container .divided-input-wrap .divided-input {
+  width: 30%;
+}
+
+.creation-container .form-container .close-btn {
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  -webkit-transition: 300ms ease;
+  transition: 300ms ease;
+}
+/*# sourceMappingURL=DogCreation.css.map */

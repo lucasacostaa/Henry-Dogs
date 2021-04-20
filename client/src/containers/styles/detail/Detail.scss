@@ -1,0 +1,82 @@
+.detail-container{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100%;
+    width: 99.7%;
+    background-color: rgba(0, 0, 0, 0.452);
+    z-index: 2;
+    margin: 0 auto;
+    right: auto;
+    border: solid grey;
+    margin-top: -80px;
+    padding-top: 90px;
+
+    .detailCard{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+        height: 80%;
+        background-color: white;
+
+        .imageSide{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            width: 60%;
+        }
+
+        .dataSide{
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            width: 40%;
+            padding-right: 30px;
+
+            .data{
+                margin: 15px;
+                font-size: 19px;
+            }
+
+            .close-btn{
+                position: absolute;
+                top: 2%;
+                right: 2%;
+                text-decoration: none;
+                color: black;
+                font-weight: 600;
+                transition: 300ms ease;
+            }
+
+            section{
+                display: flex;
+                flex-direction: column;
+                font-size: 19px;
+
+                .temperament-section{
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: center;
+
+                    .temperament-tag{
+                        margin: 3px;
+                        padding: 3px;
+                        background-color: rgba(95, 234, 76, 0.288);
+                        border-radius: 8px;
+                    }
+                }
+            }
+        }
+    }
+}

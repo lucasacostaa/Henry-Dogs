@@ -1,0 +1,61 @@
+.favourite-container{
+    position: absolute;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 200%;
+    width: 99.7%;
+    background-color: #00000080;
+    backdrop-filter: blur(4px);
+    z-index: 2;
+    margin: 0 auto;
+    right: auto;
+    border: solid grey;
+    margin-top: -80px;
+    padding-top: 80px;
+
+    .cards-slider{
+        position: relative;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        background-color: white;
+        height: max-content;
+        min-height: 30%;
+        padding: 20px 0;
+        width: 100%;
+        flex-wrap: wrap;
+        
+        #title{
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+
+        .close-btn{
+            position: absolute;
+            top: 2%;
+            right: 2%;
+            text-decoration: none;
+            color: black;
+            font-weight: 600;
+            transition: 300ms ease;
+            font-size: 17px;
+        }
+
+        .cards{
+            display:flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            width: 100%;
+            padding: 20px 0;
+            justify-content: center;
+            align-items: center;
+            min-height: 50%;
+
+            #no-favourites{
+                font-size: 1.5rem;
+            }
+        }
+    }
+}

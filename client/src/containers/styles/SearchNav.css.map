@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,qBAAqB,CAAA;EACjB,OAAO,EAAE,IAAI;EACb,QAAQ,EAAE,QAAQ;EAClB,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,EAAE;EACd,aAAa,EAAE,EAAE;EACjB,KAAK,EAAE,GAAG;EACV,OAAO,EAAE,SAAS;EAClB,eAAe,EAAE,aAAa;CACjC",
+    "sources": [
+        "SearchNav.scss"
+    ],
+    "names": [],
+    "file": "SearchNav.css"
+}

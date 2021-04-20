@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,SAAS,CAAA;EACL,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,eAAe,EAAE,UAAU;EAC3B,WAAW,EAAE,UAAU;EACvB,gBAAgB,EAAE,KAAK;EACvB,MAAM,EAAE,KAAK;EACb,MAAM,EAAE,eAAe;EACvB,MAAM,EAAE,WAAW;EACnB,YAAY,EAAE,IAAI;EAClB,cAAc,EAAE,IAAI;EACpB,eAAe,EAAC,IAAI;EACpB,MAAM,EAAE,CAAC;EACT,UAAU,EAAE,IAAI;CACnB",
+    "sources": [
+        "SearchSuggestions.scss"
+    ],
+    "names": [],
+    "file": "SearchSuggestions.css"
+}

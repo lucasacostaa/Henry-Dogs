@@ -1,0 +1,24 @@
+.btn-dropdown-filter{
+    display: flex;
+    align-items: center;
+    color: black;
+    height: 40px;
+    text-decoration: none;
+    appearance: none;
+    outline: black;
+    border:black solid 1px;
+    border-radius: 8px;
+    border-color: #eeeeef;
+    padding: 0px 16px;
+}
+
+.hola{
+    padding-right: 30px;
+
+    &:hover{
+        background-color: #fff;
+        border-color: rgba(95, 234, 76, 0.4);
+        -webkit-box-shadow: 0 0 0 4px rgba(48, 151, 74, 0.1);
+        box-shadow: 0 0 0 4px rgba(48, 151, 74, 0.1);
+    }
+}

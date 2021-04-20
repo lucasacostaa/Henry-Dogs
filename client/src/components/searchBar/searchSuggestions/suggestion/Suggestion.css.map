@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,WAAW,CAAA;EACP,WAAW,EAAE,MAAM;EACnB,UAAU,EAAE,IAAI;EAChB,OAAO,EAAE,WAAW;EACpB,UAAU,EAAE,UAAU;EACtB,KAAK,EAAE,IAAI;CAKd;;AAVD,AAOI,WAPO,CAOP,eAAe,CAAA;EACX,UAAU,EAAE,UAAU;CACzB",
+    "sources": [
+        "Suggestion.scss"
+    ],
+    "names": [],
+    "file": "Suggestion.css"
+}

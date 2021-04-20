@@ -1,0 +1,143 @@
+.creation-container{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    height: 300%;
+    width: 99.7%;
+    background-color: rgba(0, 0, 0, 0.452);
+    z-index: 2;
+    margin: 0 auto;
+    right: auto;
+    border: solid grey;
+    margin-top: -80px;
+    padding-top: 80px;
+
+    .image-insertion{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 30%;
+        height: 30%;
+        background-color: white;
+
+        input{
+            width: 80%;
+            line-height: 15px;
+            border: 1px solid transparent;
+            font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            box-sizing: border-box;
+            height: 40px;
+            padding: 10px 16px;
+            outline: none;
+            border-radius: 8px;
+            transition: background-color 200ms ease, outline 200ms ease, color 200ms ease, box-shadow 200ms ease, -webkit-box-shadow 200ms ease;
+            appearance: none;
+            color: #0d0c22;
+            background-color: #f3f3f4;
+            margin: 10px 0px;
+
+            &:hover{
+                background-color: #fff;
+                border-color: rgba(0,0,0,0.1);
+                -webkit-box-shadow: 0 0 0 4px rgba(234,76,137,0.1);
+                box-shadow: 0 0 0 4px rgba(234,76,137,0.1);
+            }
+        }
+    }
+
+    .form-container{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: white;
+        height: 30%;
+        width: 35%;
+
+        .form-field{
+            display: flex;
+            justify-content: center;
+            width: 80%;
+
+            fieldset{
+                border: transparent;
+                width: 100%
+            }
+
+            #tagSelection{
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+
+                span{
+                    padding: 5px 3px;
+                    background-color: grey;
+                    color: white;
+                    font-weight: 500;
+                    border-radius: 8px;
+                    margin: 2px
+                }
+
+                .tempDelete{
+                    display: inline-block;
+                    padding: 2px;
+                    height: fit-content;
+                }
+            }
+
+            select{
+                height: 80px;
+            }
+        }
+
+        input{
+            width: 80%;
+            line-height: 15px;
+            border: 1px solid transparent;
+            font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            box-sizing: border-box;
+            height: 40px;
+            padding: 10px 16px;
+            outline: none;
+            border-radius: 8px;
+            transition: background-color 200ms ease, outline 200ms ease, color 200ms ease, box-shadow 200ms ease, -webkit-box-shadow 200ms ease;
+            appearance: none;
+            color: #0d0c22;
+            background-color: #f3f3f4;
+            margin: 10px 0px;
+
+            &:hover{
+                background-color: #fff;
+                border-color: rgba(0,0,0,0.1);
+                -webkit-box-shadow: 0 0 0 4px rgba(234,76,137,0.1);
+                box-shadow: 0 0 0 4px rgba(234,76,137,0.1);
+            }
+        }
+
+        .divided-input-wrap{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+
+
+            .divided-input{
+                width: 30%
+            }    
+        }
+
+        .close-btn{
+            position: absolute;
+            top: 2%;
+            right: 2%;
+            text-decoration: none;
+            color: black;
+            font-weight: 600;
+            transition: 300ms ease;
+        }
+    }
+}
