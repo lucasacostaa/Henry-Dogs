@@ -1,6 +1,7 @@
 # Henry-Dogs
 
 The aim of the page is to search through dozens of dog's breeds (there're lot of them I've never knew about before).
+Oh! I almost forgot! You can create your own breed too. :wink:
 
 It's done with pure css.
 
